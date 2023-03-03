@@ -1,0 +1,40 @@
+.NavBar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+
+    font-size: large;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
+
+.NavBar h2 {
+    
+}
+
+.NavBar ul {
+    display: flex;
+    
+    list-style: none;
+}
+
+.nav-button {
+    margin: 0 1em;
+    padding: 0.2em 0.5em;
+    border-radius: 12px;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.nav-button:hover {
+    color: gainsboro;
+    background-color: blueviolet;
+    cursor: pointer;
+}
